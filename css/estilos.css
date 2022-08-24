@@ -1,0 +1,91 @@
+/* REFERENCIA POR PALABRA CLAVE DEL ELEMENTO*/
+P { 
+    font-size: 50px;
+    font-weight: bold;
+}
+/* REFERENCIA POR EL ATRIBUDO ID*/
+
+#textoporid{
+    font-size: 25px;
+    color: red;
+}
+
+#labelazul{
+    font-size: 25px;
+    color: blue;
+}
+
+#labelverde{
+    font-size: 25px;
+    color: green;
+}
+
+#labelamarillo{
+    font-size: 25px;
+    color: black;
+}
+
+#labelmorado{
+    font-size: 25px;
+    color: purple;
+}
+
+
+
+/* REFERENCIA POR EL ATRIBUTO CLASS*/
+
+/*expresiones regulares*/
+
+p[name^="par"]{
+    color: green;
+}
+
+p[name$="aguas"]{
+    color: grey;
+}
+
+p[name*="parr"]{
+    color: orange;
+}
+
+/*PSEUDO CLASES*/
+
+.mitexto:nth-child(1){
+background: blueviolet;
+}
+
+.mitexto:nth-child(2){
+    background: green;
+    }
+
+    .mitexto:nth-child(3){
+        background: yellow;
+        }
+
+        .mitexto:nth-child(4){
+            background: red;
+            }
+
+            .mitexto:nth-child(5){
+                background: orange;
+                }
+
+* {
+    margin: 0px;
+}
+
+p:last-child{
+    font-weight: normal;
+    color: white;
+}
+
+:not(.mitexto){
+    margin: 10px;
+}
+
+
+/* NUEVOS CELECTORES*/
+
+div > p.mitexto{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
