@@ -1,15 +1,38 @@
 .articulo{
-    background: #0069c0;
+    background: #581845;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 12px;
     padding: 20px;
     margin-bottom: 15px;
     color: rgb(255, 255, 255);
     text-align: justify;
+    text-shadow: black;
+
+}
+.articulo3{
+    background: #581845;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+
 }
 
+.stroke {
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px black;
+    }
 
+.articulo1{
+    background: #581845;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    text-align: left;
 
+}
 
 article footer{
     text-align: right;
@@ -36,6 +59,7 @@ div{
     padding: 10px 13px;
     background-color: white;
     border-radius: 12px;
+    
 
 }
 /* Works on Firefox */
