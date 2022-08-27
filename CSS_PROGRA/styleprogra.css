@@ -47,10 +47,10 @@ div{
     display: flex;
     justify-content:center ;
     position: relative;
-    width: 890px;
-    padding: 10px 13px;
+    width: 902px;
+    padding: 10px 30px;
     background-color: white;
-    border-radius: 12px;
+    border-radius: 10px;
     
 
 }

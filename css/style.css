@@ -1,5 +1,5 @@
 .articulo{
-    background: #0069c0;
+    background: #9EF01A;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 12px;
     padding: 20px;
@@ -7,7 +7,18 @@
     color: rgb(255, 255, 255);
     text-align: justify;
 }
+.iconos{
 
+  display: flex;
+  justify-content:center ;
+  position: relative;
+  width: 902px;
+  padding: 10px 30px;
+  background-color: white;
+  border-radius: 10px;
+  
+
+}
 
 
 
@@ -20,24 +31,14 @@ figcaption{
 }
 
 div{
-    width: 350px;
-    margin: 20px;
-    padding: 05px;
-    border: 2.5px solid rgb(255, 255, 255);
-    box-sizing: border-box;
+  width: 350px;
+  margin: 20px;
+  padding: 05px;
+  border: 2.5px solid rgb(255, 255, 255);
+  box-sizing: border-box;
 
 }
-.iconos{
 
-    display: flex;
-    justify-content:center ;
-    position: relative;
-    width: 890px;
-    padding: 10px 13px;
-    background-color: white;
-    border-radius: 12px;
-
-}
 /* Works on Firefox */
 * {
     scrollbar-width: thin;

@@ -37,7 +37,7 @@ header, section, footer aside, nav, article, figure, figcaption, hgroup{
 
 body{
     text-align: center;
-    background-image: url(https://images5.alphacoders.com/695/thumb-1920-695931.jpg);
+    background-image: url(https://fondosmil.com/fondo/7273.jpg);
     background-size: contain;
 }
 
@@ -63,6 +63,15 @@ body{
   
 
 }
+#logo{
+    float:left;
+    width: 15%;
+
+
+}
+
+
+
 #stroke {
     -webkit-text-fill-color: rgb(255, 255, 255);
     -webkit-text-stroke: 2px black;
@@ -99,8 +108,8 @@ body{
 
 
 
-#principal{
-    float:left;
+   #principal{
+    float:right;
     width: 660px;
     margin: 20px;
 }
@@ -191,5 +200,6 @@ body{
     position: relative;
     
 }
+
 
 

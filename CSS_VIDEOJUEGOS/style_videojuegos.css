@@ -24,16 +24,10 @@
 
 
 .articulo3{
-  background: #3993DD;
-  border: 3px solid rgb(255, 255, 255);
-  border-radius: 12px;
-  margin-bottom: 15px;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  text-shadow: black;
-  
-  
-  
+
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 
 }
 .stroke {
