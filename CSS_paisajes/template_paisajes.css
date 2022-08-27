@@ -30,8 +30,8 @@ h6{
 }
 
 p1{
-    font-family: 'Alumni Sans Inline One', cursive;
-    font-size: 90px;
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 60px;
 
 }
 h12{
@@ -48,7 +48,7 @@ header, section, footer aside, nav, article, figure, figcaption, hgroup{
 
 body{
     text-align: center;
-    background-image: url(https://fondosmil.com/fondo/7283.jpg);
+    background-image: url(https://fondosmil.com/fondo/2254.jpg);
     background-size: contain;
 }
 
@@ -62,14 +62,14 @@ body{
 
 #logo{
     float:left;
-    width: 15%;
+    width: 20%;
 
 
 }
 
 #cabecera{
-  background-color: #c70039;
-  padding: 20px;
+  background-color: #8BC746;
+  padding: 15px;
   color: white;
   justify-items: center;
   text-align: center;
@@ -78,7 +78,7 @@ body{
 
 }
 #menu{
-    background-color: #900c3f;
+    background-color: #BC6C25;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 12px;
     padding: 20px;
@@ -112,7 +112,7 @@ body{
 
    #menu li a:hover{
 
-    background-color: #ffc30f;
+    background-color: #DDA15E;
    }
 
 
@@ -130,7 +130,7 @@ body{
     width: 220px;
     margin: 20px 0px;
     padding: 20px;
-    background-color:#ff5733;
+    background-color:#8BC746;
     color: white;
     border: 1px solid rgb(255, 255, 255);
 }
@@ -141,7 +141,7 @@ body{
     text-align: center;
     padding: 20px;
     border-top: 2px solid rgb(255, 255, 255) ;
-    background-color: #ffa726;
+    background-color: #8BC746;
     color: white;
     font: bold 25px verdana, sans-serif;
     border-radius: 12px;

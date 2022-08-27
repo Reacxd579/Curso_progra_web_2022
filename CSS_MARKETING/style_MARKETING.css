@@ -1,5 +1,5 @@
 .articulo{
-    background: #900c3f;
+    background: #0F4C5C;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 12px;
     padding: 20px;
@@ -10,7 +10,7 @@
 
 }
 .articulo15{
-    background: #900c3f;
+    background: #0F4C5C;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 12px;
     padding: 20px;
@@ -36,7 +36,7 @@
     }
 
 .articulo1{
-    background: #900c3f;
+    background: #0F4C5C;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 12px;
     padding: 20px;
@@ -68,7 +68,7 @@ div{
     justify-content:center ;
     position: relative;
     width: 902px;
-    padding: 10px 30px;
+    padding: 20px 30px;
     background-color: white;
     border-radius: 10px;
     
