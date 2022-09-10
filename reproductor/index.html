@@ -6,26 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REPRODUCTOR</title>
     <link rel="stylesheet" href="css/styke.css">
-    <script> src="js/aplication"</script>
+    <script src="js/aplication.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
     <section id="reproductor">
 <video id="medio" width="720" height="400">
-    <source src="media/videoplayback.mp4">
+    <source src="media/Video Tutorial Maquillaje Moderno Colorido Rosa.mp4">
 </video>
+
 <nav>
-        <div id="botones">
-            <button type="button" id="reproducir">Reproducir</button>
-        </div>
-
-        <div id="barra">
-            <div id="progreso">  </div>
-        </div>
-        
-        <div stlye="clear: both; ">
-
-        </div>
-    </nav>
+    <div id="botones">
+        <button type = "button" id="retroceder"><i class="fa-solid fa-backward"></i></button>
+        <button type="button" id="reproducir"><i class="fa-solid fa-play"></i><i class="fa-solid fa-pause"></i></button>
+        <button type = "button" id="adelantar"><i class="fa-solid fa-forward"></i></button> 
+    </div>
+    <div class="estado">
+00:00 / 13:20
+    </div>
+    
+    <div id="barra">
+        <div id="progreso"></div>
+    </div>
+    <div id= "botones2">
+        <button id= "fullscreen"><i class = "fa-solid fa-expand"></i></button>
+    </div>
+    
+    <div style="clear: both;"></div>
+</nav>
     </section>
 </body>
 </html>

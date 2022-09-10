@@ -1,21 +1,23 @@
 body{
     text-align: center;
 }
-header,section,footer,aside,nav,article,figure,figcaption,hgroup{
+
+header, section, footer, aside, nav, article, figcaption, figure, hgroup{
     display: block;
 }
 
 #reproductor{
     width: 720px;
     margin: 20px auto;
-    padding: 20px auto;
     padding: 5px;
-    background: #999999;
-    border: 1px solid #999999;
+    background: #66ff0099;
+    border: 1px solid #666666;
     border-radius: 5px;
-    -moz-border-radius: 5px ;
     -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
 }
+
 
 nav{
     margin: 5px 0px;
@@ -25,23 +27,30 @@ nav{
     float: left;
     width: 100px;
     height: 20px;
-
 }
+#botones2{
+    float: right;
+    width: 40px;
+    height: 20px;
+}
+
 
 #barra{
     position: relative;
     float: left;
-    width: 600px;
+    width: 570px;
     height: 16px;
-    padding:2px;
-    border: 1px solid #cccccc;
-    background: #cccccc;
+    padding: 2px;
+    border: 1px solid #CCCCCC;
+    background: #EEEEEE;
 }
+
 
 #progreso{
     position: absolute;
+    float: left;
     width: 0px;
     height: 16px;
-    background: rgb(0, 0, 150, .2);
+    padding: 2px;
+    background: black;
 }
-
